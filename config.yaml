@@ -1,0 +1,23 @@
+timezone: Asia/Kolkata
+wake_up: "07:00"            # the workflow runs ~45 min before this
+language: en                # en only for now (hi | hinglish later)
+competitions: [CL, PL, PD, BL1, SA, FL1]   # football-data.org codes
+teams:
+  - Real Madrid
+  - Arsenal
+  - Barcelona
+spoiler_safe:
+  teams: [Real Madrid]
+  window_hours: 36
+briefing:
+  max_seconds: 150
+  headlines: 3
+delivery:
+  rss: true
+  telegram: true            # needs TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID secrets
+feed:
+  title: Pocket Pandit
+  base_url: https://yashgurav002.github.io/pocket-pandit
+rss_feeds:
+  - https://feeds.bbci.co.uk/sport/football/rss.xml
+  - https://www.theguardian.com/football/rss

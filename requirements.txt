@@ -1,0 +1,9 @@
+requests
+PyYAML
+numpy
+pandas
+scikit-learn
+tabpfn
+kokoro
+soundfile
+pytest

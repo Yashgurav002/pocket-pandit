@@ -1,0 +1,50 @@
+name: morning-briefing
+on:
+  schedule:
+    - cron: "15 1 * * *"     # 01:15 UTC = 06:45 IST, 45 min before wake_up in config.yaml
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: briefing
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GEMMA_MODEL: ${{ vars.GEMMA_MODEL || 'gemma3:4b' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: |
+          sudo apt-get install -y -qq ffmpeg espeak-ng
+          pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.ollama
+            ~/.cache/huggingface
+            ~/.cache/tabpfn
+            data/training/raw
+          key: models-v1-${{ vars.GEMMA_MODEL || 'gemma3:4b' }}
+      - name: Install and start Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve > /tmp/ollama.log 2>&1 &
+          sleep 5
+          ollama pull "$GEMMA_MODEL"
+      - name: Refresh training data
+        run: python -m ml.build_training
+      - name: Build and publish briefing
+        run: python -m pandit run
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          TABPFN_TOKEN: ${{ secrets.TABPFN_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Commit episode
+        run: |
+          git config user.name "pocket-pandit"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A docs data/state.json data/facts
+          git commit -m "Episode $(TZ=Asia/Kolkata date +%F)" && git push

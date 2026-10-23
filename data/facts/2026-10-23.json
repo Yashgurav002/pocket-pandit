@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-23",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "560616",
+   "comp": "Premier League",
+   "home": "Arsenal",
+   "away": "Everton",
+   "comp_code": "PL",
+   "stage": "REGULAR_SEASON",
+   "matchday": 8,
+   "kickoff_utc": "2026-10-24T14:00:00Z",
+   "kickoff_local": "7:30 PM",
+   "kickoff_day": "Saturday",
+   "probs": {
+    "home": 0.77,
+    "draw": 0.14,
+    "away": 0.09
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": null
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 2,
+   "points": 18,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Ex-Arsenal director of football Edu to advise Northampton",
+   "description": "Nottingham Forest's former global head of football Edu will serve as a senior advisor to the new owners of Northampton Town.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqrky7n63l6po?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "US to host first Women's Club World Cup in 2028",
+   "description": "Arsenal are named as one of the teams to compete at the inaugural Women's Club World Cup, to be hosted in the United States in 2028.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "What are Real's attacking options during Vinicius Jr ban?",
+   "description": "Real Madrid’s attacking options are expanding under Jose Mourinho, with Endrick, Yan Diomande and Carlos Espi offering fresh solutions in the final third.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cq70pj7p0ep6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  }
+ ]
+}

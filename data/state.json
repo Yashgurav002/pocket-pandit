@@ -1,0 +1,33 @@
+{
+ "positions": {
+  "PD:Barcelona": 1,
+  "PD:Real Madrid": 3,
+  "PL:Arsenal": 2
+ },
+ "episodes": [
+  {
+   "title": "Friday 23 Oct: your teams in 2 minutes",
+   "file": "2026-10-23.mp3",
+   "bytes": 686253,
+   "seconds": 86,
+   "pub": "Fri, 23 Oct 2026 13:31:47 +0000",
+   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cqrky7n63l6po?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cq70pj7p0ep6o?at_medium=RSS&amp;at_campaign=rss\">Real Madrid: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: TabPFN, for fun, not betting advice.</p>"
+  }
+ ],
+ "runs": [
+  {
+   "date": "2026-10-23",
+   "attempts": 2,
+   "grounding_failures": [
+    [
+     "6",
+     "Gunners"
+    ]
+   ],
+   "guard_hits": 0,
+   "source": "gemma",
+   "seconds": 86,
+   "pipeline_seconds": 219
+  }
+ ]
+}

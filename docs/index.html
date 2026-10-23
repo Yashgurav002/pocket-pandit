@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocket Pandit</title>
+<meta name="description" content="Your personal football expert, in your pocket. A two-minute, spoiler-safe morning briefing built from open models. Free forever.">
+<link rel="alternate" type="application/rss+xml" title="Pocket Pandit" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0c0c0b; --surface: #151513; --surface-2: #1c1c19; --line: #2a2a26;
+    --text: #f2efe8; --muted: #8f8b82; --accent: #d8ff5c; --accent-ink: #0c0c0b; --hide: #3a3a34;
+    --serif: "Instrument Serif", Georgia, serif; --sans: Inter, system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, monospace; --r: 18px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f2ec; --surface: #ffffff; --surface-2: #ecebe4; --line: #dcd9cf;
+      --text: #121210; --muted: #6b675e; --accent: #1f3dff; --accent-ink: #fff; --hide: #cfccc2; }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font: 400 16px/1.55 var(--sans); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+  .mono { font: 500 11.5px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+  /* top bar */
+  header { position: sticky; top: 0; z-index: 5; backdrop-filter: blur(14px); background: color-mix(in srgb, var(--bg) 82%, transparent); border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; gap: 16px; }
+  .brand { font: 500 13px var(--mono); letter-spacing: .14em; text-transform: uppercase; text-decoration: none; display: flex; align-items: center; gap: 10px; }
+  .brand i { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent); }
+  nav { display: flex; gap: 22px; }
+  nav a { text-decoration: none; }
+  nav a:hover { color: var(--text); }
+
+  /* hero */
+  .hero { padding: 96px 0 64px; display: grid; grid-template-columns: 1.25fr 1fr; gap: 56px; align-items: end; }
+  h1 { font: 400 clamp(52px, 8.4vw, 112px)/.92 var(--serif); letter-spacing: -.02em; }
+  h1 em { color: var(--muted); }
+  .lede { font-size: 18px; color: var(--muted); max-width: 30ch; margin: 28px 0 32px; }
+  .lede b { color: var(--text); font-weight: 500; }
+  .ctas { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn { font: 500 14px var(--sans); border-radius: 999px; padding: 13px 20px; border: 1px solid var(--line); background: transparent; color: var(--text); cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: transform .15s, background .15s; }
+  .btn:hover { transform: translateY(-1px); background: var(--surface-2); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+  .btn.primary:hover { background: var(--accent); filter: brightness(1.05); }
+
+  /* player */
+  .player { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 22px; }
+  .player-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+  .live { display: inline-flex; align-items: center; gap: 8px; }
+  .live::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
+  @keyframes pulse { 50% { opacity: .3; } }
+  .ep-title { font: 400 30px/1.1 var(--serif); margin-bottom: 20px; min-height: 33px; }
+  .wave { display: flex; align-items: center; gap: 3px; height: 64px; cursor: pointer; }
+  .wave span { flex: 1; border-radius: 2px; background: var(--hide); transition: background .2s; }
+  .wave span.on { background: var(--text); }
+  .controls { display: flex; align-items: center; gap: 14px; margin-top: 18px; }
+  .play { width: 52px; height: 52px; border-radius: 50%; border: 0; background: var(--text); color: var(--bg); cursor: pointer; display: grid; place-items: center; flex: none; }
+  .play svg { width: 18px; height: 18px; }
+  .time { font: 500 13px var(--mono); color: var(--muted); }
+
+  /* bento */
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  .sec-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 28px; gap: 16px; }
+  h2 { font: 400 clamp(34px, 4.6vw, 52px)/1 var(--serif); letter-spacing: -.01em; }
+  .bento { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 22px; display: flex; flex-direction: column; justify-content: space-between; gap: 22px; min-height: 230px; transition: border-color .2s, transform .2s; }
+  .tile:hover { border-color: var(--muted); transform: translateY(-2px); }
+  .tile h3 { font: 400 28px/1.05 var(--serif); }
+  .tile p { color: var(--muted); font-size: 14.5px; max-width: 40ch; }
+  .t-spoil { grid-column: span 4; }
+  .t-odds { grid-column: span 2; }
+  .t-night, .t-open, .t-cron { grid-column: span 2; }
+  .scoreline { display: flex; align-items: center; gap: 14px; font: 400 clamp(26px, 3.4vw, 40px)/1 var(--serif); flex-wrap: wrap; }
+  .redact { display: inline-block; width: 1.5em; height: .9em; border-radius: 6px; background: repeating-linear-gradient(-45deg, var(--hide) 0 6px, var(--surface-2) 6px 12px); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip { font: 500 12px var(--mono); padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); }
+  .chip.hot { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+  .bar { display: flex; height: 10px; border-radius: 999px; overflow: hidden; gap: 3px; }
+  .bar span:nth-child(1) { background: var(--text); } .bar span:nth-child(2) { background: var(--muted); } .bar span:nth-child(3) { background: var(--hide); }
+  .legend { display: flex; justify-content: space-between; margin-top: 10px; font: 500 12px var(--mono); color: var(--muted); }
+  .big { font: 400 64px/1 var(--serif); }
+  .stack { display: grid; gap: 8px; font: 500 13px var(--mono); }
+  .stack div { display: flex; justify-content: space-between; border-bottom: 1px dashed var(--line); padding-bottom: 8px; }
+  .stack div span:last-child { color: var(--muted); }
+
+  /* episodes */
+  .eps { list-style: none; padding: 0; border-top: 1px solid var(--line); }
+  .eps li { display: grid; grid-template-columns: 110px 1fr auto 44px; align-items: center; gap: 16px; padding: 16px 4px; border-bottom: 1px solid var(--line); cursor: pointer; transition: background .15s; }
+  .eps li:hover, .eps li.playing { background: var(--surface); }
+  .eps .t { font: 400 22px/1.2 var(--serif); }
+  .eps button { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--text); cursor: pointer; display: grid; place-items: center; }
+  .empty { color: var(--muted); padding: 28px 4px; border-bottom: 1px solid var(--line); }
+
+  /* steps */
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; counter-reset: s; }
+  .step { padding: 22px 0; border-top: 1px solid var(--text); }
+  .step::before { counter-increment: s; content: "0" counter(s); font: 500 12px var(--mono); color: var(--muted); }
+  .step h3 { font: 400 26px var(--serif); margin: 10px 0 6px; }
+  .step p { color: var(--muted); font-size: 14.5px; }
+  code { font: 13px var(--mono); background: var(--surface-2); padding: 2px 6px; border-radius: 6px; }
+
+  footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translate(-50%, 20px); opacity: 0; background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 999px; font: 500 13px var(--sans); transition: .25s; pointer-events: none; }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; padding-top: 56px; gap: 36px; }
+    .bento { grid-template-columns: 1fr 1fr; }
+    .t-spoil { grid-column: span 2; } .t-odds, .t-night, .t-open, .t-cron { grid-column: span 1; }
+    .steps { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 0 16px; }
+    nav a:not(:last-child) { display: none; }
+    .bento { grid-template-columns: 1fr; } .tile { grid-column: span 1 !important; min-height: 0; }
+    .eps li { grid-template-columns: 1fr 44px; } .eps .d, .eps .dur { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="#"><i></i>Pocket Pandit</a>
+    <nav class="mono"><a href="#how">How it works</a><a href="#episodes">Episodes</a><a href="feed.xml">RSS</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <p class="mono">Morning football briefing · open models · ₹0</p>
+      <h1 style="margin-top:18px">Your football<br>expert, <em>in your<br>pocket.</em></h1>
+      <p class="lede"><b>Two minutes every morning</b> on the teams you follow. It never spoils the match you're saving, and it tells you whether the replay is worth 90 minutes.</p>
+      <div class="ctas">
+        <button class="btn primary" id="copy">Copy podcast feed</button>
+        <a class="btn" href="#episodes">All episodes ↓</a>
+      </div>
+    </div>
+
+    <div class="player" aria-label="Latest episode">
+      <div class="player-top"><span class="mono live">Latest episode</span><span class="mono" id="ep-date"></span></div>
+      <div class="ep-title" id="ep-title">Loading…</div>
+      <div class="wave" id="wave" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+      <div class="controls">
+        <button class="play" id="play" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg></button>
+        <span class="time" id="time">0:00 / 0:00</span>
+      </div>
+      <audio id="audio" preload="none"></audio>
+    </div>
+  </div>
+
+  <section id="how">
+    <div class="sec-head"><h2>What's in the briefing</h2><span class="mono">Example episode</span></div>
+    <div class="bento">
+      <article class="tile t-spoil">
+        <span class="mono">Spoiler-safe · Champions League</span>
+        <div class="scoreline">Real Madrid <span class="redact"></span><span class="redact"></span> Inter</div>
+        <div>
+          <div class="chips" style="margin-bottom:12px"><span class="chip hot">8 / 10 drama</span><span class="chip">late twist</span><span class="chip">worth the full replay</span></div>
+          <p>You said you'd watch it later, so the score never reaches the model at all. You get a drama rating and a verdict, never the result.</p>
+        </div>
+      </article>
+      <article class="tile t-odds">
+        <span class="mono">Tonight · 12:30 AM IST</span>
+        <h3>Arsenal v Atlético</h3>
+        <div>
+          <div class="bar"><span style="width:58%"></span><span style="width:24%"></span><span style="width:18%"></span></div>
+          <div class="legend"><span>Home 58%</span><span>Draw 24%</span><span>Away 18%</span></div>
+        </div>
+      </article>
+      <article class="tile t-night">
+        <span class="mono">Worth staying up?</span>
+        <div class="big">☾</div>
+        <p>Not a must-watch. Sleep and catch the highlights. The call weighs how close it is, what's at stake and when you wake up.</p>
+      </article>
+      <article class="tile t-open">
+        <span class="mono">Open models only</span>
+        <div class="stack"><div><span>Gemma</span><span>writes</span></div><div><span>TabPFN</span><span>predicts</span></div><div><span>Kokoro</span><span>speaks</span></div></div>
+        <p>Every name and number is checked against the day's facts before it's spoken.</p>
+      </article>
+      <article class="tile t-cron">
+        <span class="mono">Runs itself</span>
+        <div class="big">06:45</div>
+        <p>GitHub Actions builds it every morning before you wake up. No server, no subscription, no app.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="episodes">
+    <div class="sec-head"><h2>Episodes</h2><span class="mono" id="ep-count"></span></div>
+    <ul class="eps" id="eps"></ul>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Make it yours</h2><span class="mono">About 10 minutes</span></div>
+    <div class="steps">
+      <div class="step"><h3>Fork the repo</h3><p>Everything lives in your own GitHub account. No sign-up anywhere else.</p></div>
+      <div class="step"><h3>Edit <code>config.yaml</code></h3><p>Add your teams, the ones to keep spoiler-free, and your wake-up time.</p></div>
+      <div class="step"><h3>Subscribe</h3><p>Paste the feed URL into any podcast app. New episodes just show up.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap mono">
+    <span>Data: football-data.org · football-data.co.uk</span>
+    <span>Predictions are estimates for fun, not betting advice</span>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const audio = $("audio"), wave = $("wave"), BARS = 64;
+const PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></svg>';
+const PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
+const fmt = s => isFinite(s) ? `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}` : "0:00";
+const feedUrl = new URL("feed.xml", location.href).href;
+
+// Deterministic "waveform" per episode, so it looks the same on every visit.
+function drawWave(seed) {
+  let x = [...seed].reduce((a, c) => a * 31 + c.charCodeAt(0), 7) >>> 0;
+  wave.innerHTML = Array.from({ length: BARS }, (_, i) => {
+    x = (x * 1103515245 + 12345) >>> 0;
+    const h = 18 + (x % 70) * (0.55 + 0.45 * Math.sin(i / 6));
+    return `<span style="height:${Math.max(10, h)}%"></span>`;
+  }).join("");
+}
+
+let episodes = [], current = -1;
+function load(i, autoplay) {
+  const e = episodes[i]; if (!e) return;
+  current = i;
+  audio.src = e.url;
+  $("ep-title").textContent = e.title;
+  $("ep-date").textContent = e.date;
+  $("time").textContent = `0:00 / ${fmt(e.seconds)}`;
+  drawWave(e.guid);
+  document.querySelectorAll(".eps li").forEach((li, j) => li.classList.toggle("playing", j === i));
+  if (autoplay) audio.play();
+}
+
+$("play").onclick = () => audio.src ? (audio.paused ? audio.play() : audio.pause()) : null;
+audio.onplay = () => { $("play").innerHTML = PAUSE; $("play").setAttribute("aria-label", "Pause"); };
+audio.onpause = () => { $("play").innerHTML = PLAY; $("play").setAttribute("aria-label", "Play"); };
+audio.ontimeupdate = () => {
+  const p = audio.currentTime / (audio.duration || 1);
+  [...wave.children].forEach((b, i) => b.classList.toggle("on", i / BARS < p));
+  wave.setAttribute("aria-valuenow", Math.round(p * 100));
+  $("time").textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration || episodes[current]?.seconds)}`;
+};
+const seek = p => { if (audio.duration) audio.currentTime = p * audio.duration; };
+wave.onclick = e => { const r = wave.getBoundingClientRect(); seek((e.clientX - r.left) / r.width); };
+wave.onkeydown = e => {
+  if (e.key === "ArrowRight") audio.currentTime += 10;
+  if (e.key === "ArrowLeft") audio.currentTime -= 10;
+};
+
+$("copy").onclick = async () => {
+  try { await navigator.clipboard.writeText(feedUrl); toast("Feed URL copied. Paste it into your podcast app."); }
+  catch { toast(feedUrl); }
+};
+function toast(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2600);
+}
+
+fetch("feed.xml").then(r => r.ok ? r.text() : Promise.reject()).then(xml => {
+  const doc = new DOMParser().parseFromString(xml, "application/xml");
+  episodes = [...doc.querySelectorAll("item")].map(it => {
+    const d = new Date(it.querySelector("pubDate")?.textContent);
+    return {
+      title: it.querySelector("title")?.textContent ?? "",
+      url: it.querySelector("enclosure")?.getAttribute("url"),
+      guid: it.querySelector("guid")?.textContent ?? "",
+      seconds: +(it.getElementsByTagName("itunes:duration")[0]?.textContent || 0),
+      date: isNaN(d) ? "" : d.toLocaleDateString(undefined, { day: "numeric", month: "short" }),
+    };
+  });
+  render();
+}).catch(render);
+
+function render() {
+  const list = $("eps");
+  $("ep-count").textContent = episodes.length ? `Last ${episodes.length}` : "";
+  if (!episodes.length) {
+    $("ep-title").textContent = "The first episode lands tomorrow morning.";
+    drawWave("pocket-pandit");
+    list.innerHTML = '<li class="empty" style="display:block;cursor:default">No episodes yet. GitHub Actions publishes one every morning at 06:45 IST.</li>';
+    return;
+  }
+  list.innerHTML = episodes.map((e, i) => `
+    <li data-i="${i}">
+      <span class="mono d">${e.date}</span>
+      <span class="t">${e.title.replace(/</g, "&lt;")}</span>
+      <span class="mono dur">${fmt(e.seconds)}</span>
+      <button aria-label="Play ${e.title.replace(/"/g, "")}">${PLAY.replace('viewBox', 'width="14" height="14" viewBox')}</button>
+    </li>`).join("");
+  list.querySelectorAll("li").forEach(li => li.onclick = () => load(+li.dataset.i, true));
+  load(0, false);
+}
+</script>
+</body>
+</html>

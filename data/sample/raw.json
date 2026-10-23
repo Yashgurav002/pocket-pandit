@@ -1,0 +1,231 @@
+{
+ "_note": "FICTIONAL sample data for offline runs. Not real results.",
+ "now": "2026-10-21T01:15:00+00:00",
+ "date": "2026-10-21",
+ "matches": [
+  {
+   "id": 1001,
+   "utcDate": "2026-10-20T19:00:00Z",
+   "status": "FINISHED",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 3,
+   "competition": {
+    "code": "CL",
+    "name": "UEFA Champions League"
+   },
+   "homeTeam": {
+    "name": "Real Madrid CF",
+    "shortName": "Real Madrid"
+   },
+   "awayTeam": {
+    "name": "FC Internazionale Milano",
+    "shortName": "Inter"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 3,
+     "away": 2
+    },
+    "halfTime": {
+     "home": 0,
+     "away": 1
+    }
+   }
+  },
+  {
+   "id": 1002,
+   "utcDate": "2026-10-20T16:45:00Z",
+   "status": "FINISHED",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 3,
+   "competition": {
+    "code": "CL",
+    "name": "UEFA Champions League"
+   },
+   "homeTeam": {
+    "name": "FC Barcelona",
+    "shortName": "Barça"
+   },
+   "awayTeam": {
+    "name": "Club Brugge KV",
+    "shortName": "Club Brugge"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 4,
+     "away": 0
+    },
+    "halfTime": {
+     "home": 2,
+     "away": 0
+    }
+   }
+  },
+  {
+   "id": 1003,
+   "utcDate": "2026-10-21T19:00:00Z",
+   "status": "TIMED",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 3,
+   "competition": {
+    "code": "CL",
+    "name": "UEFA Champions League"
+   },
+   "homeTeam": {
+    "name": "Arsenal FC",
+    "shortName": "Arsenal"
+   },
+   "awayTeam": {
+    "name": "Club Atlético de Madrid",
+    "shortName": "Atleti"
+   },
+   "score": {
+    "winner": null,
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   }
+  },
+  {
+   "id": 1004,
+   "utcDate": "2026-10-21T19:00:00Z",
+   "status": "TIMED",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 3,
+   "competition": {
+    "code": "CL",
+    "name": "UEFA Champions League"
+   },
+   "homeTeam": {
+    "name": "Liverpool FC",
+    "shortName": "Liverpool"
+   },
+   "awayTeam": {
+    "name": "Eintracht Frankfurt",
+    "shortName": "Frankfurt"
+   },
+   "score": {
+    "winner": null,
+    "fullTime": {
+     "home": null,
+     "away": null
+    },
+    "halfTime": {
+     "home": null,
+     "away": null
+    }
+   }
+  },
+  {
+   "id": 1005,
+   "utcDate": "2026-10-18T14:00:00Z",
+   "status": "FINISHED",
+   "stage": "REGULAR_SEASON",
+   "matchday": 8,
+   "competition": {
+    "code": "PL",
+    "name": "Premier League"
+   },
+   "homeTeam": {
+    "name": "Arsenal FC",
+    "shortName": "Arsenal"
+   },
+   "awayTeam": {
+    "name": "Chelsea FC",
+    "shortName": "Chelsea"
+   },
+   "score": {
+    "winner": "HOME_TEAM",
+    "fullTime": {
+     "home": 2,
+     "away": 1
+    },
+    "halfTime": {
+     "home": 0,
+     "away": 0
+    }
+   }
+  }
+ ],
+ "standings": {
+  "PL": [
+   {
+    "position": 1,
+    "team": "Manchester City FC",
+    "points": 21
+   },
+   {
+    "position": 2,
+    "team": "Arsenal FC",
+    "points": 20
+   },
+   {
+    "position": 3,
+    "team": "Liverpool FC",
+    "points": 17
+   }
+  ],
+  "PD": [
+   {
+    "position": 1,
+    "team": "FC Barcelona",
+    "points": 25
+   },
+   {
+    "position": 2,
+    "team": "Real Madrid CF",
+    "points": 24
+   },
+   {
+    "position": 3,
+    "team": "Villarreal CF",
+    "points": 19
+   }
+  ]
+ },
+ "headlines": [
+  {
+   "title": "Real Madrid stun Inter with late fightback",
+   "description": "Two goals in the last ten minutes turned the game.",
+   "url": "https://example.com/1",
+   "source": "Sample Sport"
+  },
+  {
+   "title": "Real Madrid v Inter: match report",
+   "description": "Inter led at the break before Real Madrid turned it around late on with two goals in the final ten minutes, Inter had a man sent off.",
+   "url": "https://example.com/2",
+   "source": "Sample Sport"
+  },
+  {
+   "title": "Real Madrid's Mbappé faces fitness test before weekend",
+   "description": "The forward felt tightness in training.",
+   "url": "https://example.com/3",
+   "source": "Sample Sport"
+  },
+  {
+   "title": "Arteta says Arsenal are ready for Atlético test",
+   "description": "The Arsenal manager expects a tight game against Simeone's side.",
+   "url": "https://example.com/4",
+   "source": "Sample Sport"
+  },
+  {
+   "title": "Barcelona confirm Camp Nou capacity increase",
+   "description": "The club say more seats open next month.",
+   "url": "https://example.com/5",
+   "source": "Sample Sport"
+  },
+  {
+   "title": "Liverpool injury update",
+   "description": "Two players back in training.",
+   "url": "https://example.com/6",
+   "source": "Sample Sport"
+  }
+ ]
+}
