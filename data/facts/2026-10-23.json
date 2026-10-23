@@ -1,5 +1,6 @@
 {
  "date": "2026-10-23",
+ "date_spoken": "Friday 23 October",
  "timezone": "Asia/Kolkata",
  "results": [],
  "fixtures": [
@@ -42,6 +43,13 @@
  ],
  "headlines": [
   {
+   "title": "Arsenal fear Saka could be out for two months",
+   "description": "Arsenal forward Bukayo Saka could be sidelined for up to eight weeks with the quadriceps injury he suffered against Bayern Munich.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmwyql6v5q82o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
    "title": "Ex-Arsenal director of football Edu to advise Northampton",
    "description": "Nottingham Forest's former global head of football Edu will serve as a senior advisor to the new owners of Northampton Town.",
    "url": "https://www.bbc.co.uk/sport/football/articles/cqrky7n63l6po?at_medium=RSS&at_campaign=rss",
@@ -54,13 +62,6 @@
    "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
    "team": "Arsenal"
-  },
-  {
-   "title": "What are Real's attacking options during Vinicius Jr ban?",
-   "description": "Real Madrid’s attacking options are expanding under Jose Mourinho, with Endrick, Yan Diomande and Carlos Espi offering fresh solutions in the final third.",
-   "url": "https://www.bbc.co.uk/sport/football/articles/cq70pj7p0ep6o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "team": "Real Madrid"
   }
  ]
 }
