@@ -6,6 +6,14 @@
  },
  "episodes": [
   {
+   "title": "Saturday 24 Oct: your teams in 2 minutes",
+   "file": "2026-10-24.mp3",
+   "bytes": 415916,
+   "seconds": 52,
+   "pub": "Sat, 24 Oct 2026 05:59:46 +0000",
+   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cmwyql6v5q82o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cqrky7n63l6po?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: TabPFN, for fun, not betting advice.</p>"
+  },
+  {
    "title": "Friday 23 Oct: your teams in 2 minutes",
    "file": "2026-10-23.mp3",
    "bytes": 409772,
@@ -45,6 +53,25 @@
    "source": "template",
    "seconds": 51,
    "pipeline_seconds": 350
+  },
+  {
+   "date": "2026-10-24",
+   "attempts": 2,
+   "grounding_failures": [
+    [
+     "6",
+     "4",
+     "Gunners",
+     "Nice"
+    ],
+    [
+     "6"
+    ]
+   ],
+   "guard_hits": 0,
+   "source": "template",
+   "seconds": 52,
+   "pipeline_seconds": 293
   }
  ]
 }
