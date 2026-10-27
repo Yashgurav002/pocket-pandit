@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-27",
+ "date_spoken": "Tuesday 27 October",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 2,
+   "points": 21,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Putellas wins record-equalling third Ballon d'Or to extend Spanish dominance",
+   "description": "Barcelona and Spain midfielder Alexia Putellas wins the Ballon d'Or Feminin for a record-equalling third time.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "Arsenal eye Monza striker Varela - Tuesday's gossip",
+   "description": "Portuguese striker Gustavo Varela is on Arsenal's radar, Crystal Palace want to keep winger Ismaila Sarr, Brighton defender Luka Vuskovic receives admiring glances from some of Europe's biggest clubs, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cj3vq7l22yk9o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+   "description": "Kylian Mbappe's two goals at Barcelona have opened up La Liga, as Jose Mourinho's Real Madrid leave Camp Nou with a victory.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  }
+ ]
+}
