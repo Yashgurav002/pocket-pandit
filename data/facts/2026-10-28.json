@@ -1,0 +1,39 @@
+{
+ "date": "2026-10-28",
+ "date_spoken": "Wednesday 28 October",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Dowman sees red as Arsenal dumped out, but did Arteta go too far?",
+   "description": "A shocking defeat, a red card card, a penalty-shootout and a drone tell the story of Arsenal's dramatic loss to League Two Fleetwood Town in the last-16 of the Carabao Cup.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmg47g7dngxlo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "'Biggest night in club's history' for fearless Fleetwood",
+   "description": "A whopping 83 league places separated Fleetwood from Arsenal, yet the hosts booked their place in the Carabao Cup quarter-final thanks to their penalty shootout win over the Gunners.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
+   "description": "BBC Sport looks at the history of the biggest FA Cup and League Cup upsets after Fleetwood Town's shock win against Arsenal.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
