@@ -1,0 +1,39 @@
+{
+ "date": "2026-10-29",
+ "date_spoken": "Thursday 29 October",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "'Relax, I love Kane and Lamine Yamal' - Henry defends his Ballon d'Or hosting",
+   "description": "Former Arsenal forward Thierry Henry responds to criticism of a number of comments he made during Monday's Ballon d'Or ceremony and claims they were \"jokes\".",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm369r0n0zk5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Russo scores hat-trick as Arsenal beat Benfica",
+   "description": "Alessia Russo becomes England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Lawlor delighted after beating 'best team in the country'",
+   "description": "Fleetwood Town manager Matt Lawlor could not hide his delight after seeing his team knock Premier League champions Arsenal out of the EFL Cup on penalties.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cr93z7p02743o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
