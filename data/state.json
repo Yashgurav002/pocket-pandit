@@ -1,9 +1,18 @@
 {
  "positions": {
   "PD:Barcelona": 1,
-  "PD:Real Madrid": 3
+  "PD:Real Madrid": 3,
+  "PL:Arsenal": 2
  },
  "episodes": [
+  {
+   "title": "Friday 30 Oct: your teams in 2 minutes",
+   "file": "2026-10-30.mp3",
+   "bytes": 332396,
+   "seconds": 41,
+   "pub": "Fri, 30 Oct 2026 07:11:07 +0000",
+   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c6kgq9qg28dno?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/crly062vd0z7o?at_medium=RSS&amp;at_campaign=rss\">Real Madrid: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>"
+  },
   {
    "title": "Thursday 29 Oct: your teams in 2 minutes",
    "file": "2026-10-29.mp3",
@@ -177,6 +186,30 @@
    "source": "template",
    "seconds": 37,
    "pipeline_seconds": 82
+  },
+  {
+   "date": "2026-10-30",
+   "attempts": 2,
+   "grounding_failures": [
+    [
+     "90",
+     "82",
+     "7",
+     "9",
+     "65"
+    ],
+    [
+     "7",
+     "6",
+     "7",
+     "5",
+     "6"
+    ]
+   ],
+   "guard_hits": 0,
+   "source": "template",
+   "seconds": 41,
+   "pipeline_seconds": 184
   }
  ]
 }
