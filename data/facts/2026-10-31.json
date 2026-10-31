@@ -1,0 +1,67 @@
+{
+ "date": "2026-10-31",
+ "date_spoken": "Saturday 31 October",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "564732",
+   "comp": "La Liga",
+   "home": "Barcelona",
+   "away": "Alavés",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 11,
+   "kickoff_utc": "2026-10-31T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Saturday night",
+   "probs": {
+    "home": 0.88,
+    "draw": 0.08,
+    "away": 0.04
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 2,
+   "points": 21,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Man Utd target Barcelona's Lopez - Saturday's gossip",
+   "description": "Manchester United target Barcelona's Fermin Lopez, Lisandro Martinez is attracting interest from the La Liga side,  Arsenal eye Club Brugge striker Nicolo Tresoldi, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Russo scores hat-trick as Arsenal beat Benfica",
+   "description": "Alessia Russo becomes England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Dowman to miss three matches after appeal rejected",
+   "description": "Arsenal's Max Dowman will miss three matches after an appeal against his sending-off during Tuesday's loss at Fleetwood is rejected.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6kgq9qg28dno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
