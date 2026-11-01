@@ -1,0 +1,105 @@
+{
+ "date": "2026-11-01",
+ "date_spoken": "Sunday 1 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "564732",
+   "comp": "La Liga",
+   "home": "Barcelona",
+   "away": "Alavés",
+   "protected": false,
+   "score": "6-1",
+   "winner": "Barcelona",
+   "drama": {
+    "score": 3,
+    "tags": [
+     "end-to-end action",
+     "one-sided"
+    ],
+    "verdict": "skip it, the highlights are plenty"
+   }
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "564734",
+   "comp": "La Liga",
+   "home": "Santander",
+   "away": "Real Madrid",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 11,
+   "kickoff_utc": "2026-11-01T15:15:00Z",
+   "kickoff_local": "8:45 PM",
+   "kickoff_day": "Sunday",
+   "probs": {
+    "home": 0.16,
+    "draw": 0.22,
+    "away": 0.62
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": null
+  },
+  {
+   "id": "560631",
+   "comp": "Premier League",
+   "home": "Liverpool",
+   "away": "Arsenal",
+   "comp_code": "PL",
+   "stage": "REGULAR_SEASON",
+   "matchday": 9,
+   "kickoff_utc": "2026-11-01T16:30:00Z",
+   "kickoff_local": "10:00 PM",
+   "kickoff_day": "Sunday",
+   "probs": {
+    "home": 0.33,
+    "draw": 0.27,
+    "away": 0.4
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": null
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 30,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 2,
+   "points": 21,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Man Utd enquire about Toney - Sunday's gossip",
+   "description": "Manchester United enquire about Ivan Toney's availability, Barcelona are tracking Chelsea winger Estevao Willian, Jean-Philippe Mateta is set to leave Crystal Palace in January, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/crz98lwn3pvzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
+   "description": "Real Madrid head coach Jose Mourinho says the \"best thing is to keep your mouth shut\" but backs Kylian Mbappe following reaction to his Mao Zedong remark.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ck9dz2yned67o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  },
+  {
+   "title": "Arsenal had more than 20 players on shortlist to capitalise on title win",
+   "description": "Senior football correspondent Sami Mokbel goes inside Arsenal's bid to capitalise on their Premier League title and strengthen their squad this summer.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
