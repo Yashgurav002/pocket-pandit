@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-02",
+ "date_spoken": "Monday 2 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "564734",
+   "comp": "La Liga",
+   "home": "Santander",
+   "away": "Real Madrid",
+   "protected": true,
+   "drama": {
+    "score": 1,
+    "tags": [
+     "one-sided"
+    ],
+    "verdict": "skip it, the highlights are plenty"
+   }
+  },
+  {
+   "id": "560631",
+   "comp": "Premier League",
+   "home": "Liverpool",
+   "away": "Arsenal",
+   "protected": false,
+   "score": "0-1",
+   "winner": "Arsenal",
+   "drama": {
+    "score": 4,
+    "tags": [],
+    "verdict": "skip it, the highlights are plenty"
+   }
+  }
+ ],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 24,
+   "change": 1
+  }
+ ],
+ "headlines": [
+  {
+   "title": "I'll tell my players to dive in future - Iraola",
+   "description": "Andoni Iraola says that he will tell his players to go down in future after Liverpool were denied a penalty in Sunday's defeat by Arsenal.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cvp8grpjk4leo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "From Fleetwood embarrassment to 'magical' Anfield win 14 years in making",
+   "description": "Arsenal bounce back from the low of defeat at League Two Fleetwood to secure their first win in 14 years at Anfield - and open up a three-point lead at the top of the Premier League.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c39wz2epven4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal move clear at the top with a rare win at Liverpool",
+   "description": "Arsenal win at Anfield for the first time since 2012 to earn a three-point lead at the top of the Premier League table following an end-to-end match that leaves Liverpool frustrated to have taken nothing.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}

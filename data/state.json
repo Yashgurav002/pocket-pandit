@@ -2,9 +2,17 @@
  "positions": {
   "PD:Barcelona": 1,
   "PD:Real Madrid": 3,
-  "PL:Arsenal": 2
+  "PL:Arsenal": 1
  },
  "episodes": [
+  {
+   "title": "Monday 2 Nov: your teams in 2 minutes",
+   "file": "2026-11-02.mp3",
+   "bytes": 396140,
+   "seconds": 49,
+   "pub": "Mon, 02 Nov 2026 07:46:43 +0000",
+   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cvp8grpjk4leo?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c39wz2epven4o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>"
+  },
   {
    "title": "Sunday 1 Nov: your teams in 2 minutes",
    "file": "2026-11-01.mp3",
@@ -256,6 +264,25 @@
    "source": "gemma",
    "seconds": 103,
    "pipeline_seconds": 531
+  },
+  {
+   "date": "2026-11-02",
+   "attempts": 2,
+   "grounding_failures": [
+    [
+     "Gunners",
+     "Bournemouth",
+     "Bournemouth"
+    ],
+    [
+     "88",
+     "Gunners"
+    ]
+   ],
+   "guard_hits": 1,
+   "source": "template",
+   "seconds": 49,
+   "pipeline_seconds": 208
   }
  ]
 }
