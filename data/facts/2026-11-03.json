@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-03",
+ "date_spoken": "Tuesday 3 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "575380",
+   "comp": "Champions League",
+   "home": "Barcelona",
+   "away": "Aston Villa",
+   "comp_code": "CL",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 4,
+   "kickoff_utc": "2026-11-03T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Tuesday night",
+   "probs": {
+    "home": 0.79,
+    "draw": 0.12,
+    "away": 0.08
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights",
+   "note": "cross-league estimate, less reliable"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 30,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 24,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Arsenal want Kroupi in January - Tuesday's gossip",
+   "description": "Arsenal want to boost their striking options with Bournemouth's Eli Junior Kroupi, Manchester United scout Borussia Dortmund quartet, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmy83eppjzp4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Every goal from the Women's Super League - matchweek eight",
+   "description": "Watch every goal from across the WSL in match week eight, from Chelsea's thrashing to Arsenal's late equaliser, in an eventful weekend of action.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c6rmy008xmzxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal move clear at the top with a rare win at Liverpool",
+   "description": "Arsenal win at Anfield for the first time since 2012 to earn a three-point lead at the top of the Premier League table following an end-to-end match that leaves Liverpool frustrated to have taken nothing.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
