@@ -1,0 +1,88 @@
+{
+ "date": "2026-11-04",
+ "date_spoken": "Wednesday 4 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "575380",
+   "comp": "Champions League",
+   "home": "Barcelona",
+   "away": "Aston Villa",
+   "protected": false,
+   "score": "3-0",
+   "winner": "Barcelona",
+   "drama": {
+    "score": 2,
+    "tags": [
+     "one-sided"
+    ],
+    "verdict": "skip it, the highlights are plenty"
+   }
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "575386",
+   "comp": "Champions League",
+   "home": "PAE AEK",
+   "away": "Real Madrid",
+   "comp_code": "CL",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 4,
+   "kickoff_utc": "2026-11-04T17:45:00Z",
+   "kickoff_local": "11:15 PM",
+   "kickoff_day": "Wednesday"
+  },
+  {
+   "id": "575389",
+   "comp": "Champions League",
+   "home": "Slavia Praha",
+   "away": "Arsenal",
+   "comp_code": "CL",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 4,
+   "kickoff_utc": "2026-11-04T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Wednesday night"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 30,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 24,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Emery takes positives, but Villa 'have work to do' to reach Barca level",
+   "description": "Aston Villa boss Unai Emery says his team have \"work to do\" to reach Barcelona's level after a 3-0 Champions League defeat at the Nou Camp.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cjwy9496qe7ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "Saliba's back for Arsenal - how does Arteta solve his defensive dilemma?",
+   "description": "William Saliba returning to first-team training before Arsenal's game with Slavia Prague in the Champions League is a huge boost for the club but now presents Mikel Arteta with a selection headache.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cxj0l3pd9jy7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
+   "description": "Manchester City defender Rayan Ait-Nouri a surprise target for Manchester United, Crystal Palace could turn to England assistant boss Anthony Barry if they sack Pierre Sage, Barcelona keen on Arsenal centre-back Piero Hincapie, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
