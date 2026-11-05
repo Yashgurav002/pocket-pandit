@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-05",
+ "date_spoken": "Thursday 5 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "575386",
+   "comp": "Champions League",
+   "home": "PAE AEK",
+   "away": "Real Madrid",
+   "protected": true,
+   "drama": {
+    "score": 6,
+    "tags": [
+     "end-to-end action"
+    ],
+    "verdict": "extended highlights will do"
+   }
+  },
+  {
+   "id": "575389",
+   "comp": "Champions League",
+   "home": "Slavia Praha",
+   "away": "Arsenal",
+   "protected": false,
+   "score": "1-2",
+   "winner": "Arsenal",
+   "drama": {
+    "score": 5,
+    "tags": [],
+    "verdict": "extended highlights will do"
+   }
+  }
+ ],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 30,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 24,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Arsenal survive late Slavia scare for hard-fought win",
+   "description": "Arsenal earn their third win from four in the Champions League as goals from Noni Madueke and Victor Gyokeres are too much for Slavia Prague, despite a valiant late fight from the hosts to get back into the game.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cq4g1jwnzmyro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Raphinha scores twice as Barcelona beat Aston Villa",
+   "description": "Barcelona end Aston Villa's perfect Champions League start with an enthralling win at the Spotify Nou Camp.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cmlylzndw52ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "Emery takes positives, but Villa 'have work to do' to reach Barca level",
+   "description": "Aston Villa boss Unai Emery says his team have \"work to do\" to reach Barcelona's level after a 3-0 Champions League defeat at the Nou Camp.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cjwy9496qe7ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  }
+ ]
+}
