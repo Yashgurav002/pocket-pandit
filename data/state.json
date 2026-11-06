@@ -6,6 +6,14 @@
  },
  "episodes": [
   {
+   "title": "Friday 6 Nov: your teams in 2 minutes",
+   "file": "2026-11-06.mp3",
+   "bytes": 313004,
+   "seconds": 39,
+   "pub": "Fri, 06 Nov 2026 08:00:58 +0000",
+   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/videos/c6rmy008xmzxo?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>"
+  },
+  {
    "title": "Thursday 5 Nov: your teams in 2 minutes",
    "file": "2026-11-05.mp3",
    "bytes": 443948,
@@ -349,6 +357,24 @@
    "source": "template",
    "seconds": 55,
    "pipeline_seconds": 192
+  },
+  {
+   "date": "2026-11-06",
+   "attempts": 2,
+   "grounding_failures": [
+    [
+     "85",
+     "7",
+     "68"
+    ],
+    [
+     "8"
+    ]
+   ],
+   "guard_hits": 0,
+   "source": "template",
+   "seconds": 39,
+   "pipeline_seconds": 146
   }
  ]
 }
