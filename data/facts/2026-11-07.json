@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-07",
+ "date_spoken": "Saturday 7 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "560640",
+   "comp": "Premier League",
+   "home": "Arsenal",
+   "away": "Hull City",
+   "comp_code": "PL",
+   "stage": "REGULAR_SEASON",
+   "matchday": 10,
+   "kickoff_utc": "2026-11-07T15:00:00Z",
+   "kickoff_local": "8:30 PM",
+   "kickoff_day": "Saturday",
+   "probs": {
+    "home": 0.82,
+    "draw": 0.11,
+    "away": 0.07
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": null
+  },
+  {
+   "id": "564741",
+   "comp": "La Liga",
+   "home": "Valencia",
+   "away": "Real Madrid",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 12,
+   "kickoff_utc": "2026-11-07T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Saturday night",
+   "probs": {
+    "home": 0.13,
+    "draw": 0.2,
+    "away": 0.67
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 30,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 24,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
+   "description": "Paris St-Germain and Real Madrid interested in Aston Villa keeper Zion Suzuki, Inter Milan weighing up move for Crystal Palace's Chris Richards, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  },
+  {
+   "title": "Arsenal had more than 20 players on shortlist to capitalise on title win",
+   "description": "Senior football correspondent Sami Mokbel goes inside Arsenal's bid to capitalise on their Premier League title and strengthen their squad this summer.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Premier League news: Arteta insists Rice isn’t playing too many games",
+   "description": "<p>The Arsenal manager says ‘we’re really looking after’ midfielder, while Andoni Iraola backs keeper Alisson</p> <a href=\"https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice\">Continue reading...</a>",
+   "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice",
+   "source": "Football | The Guardian",
+   "team": "Arsenal"
+  }
+ ]
+}
