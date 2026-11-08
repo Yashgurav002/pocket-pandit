@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-08",
+ "date_spoken": "Sunday 8 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "560640",
+   "comp": "Premier League",
+   "home": "Arsenal",
+   "away": "Hull City",
+   "protected": false,
+   "score": "1-0",
+   "winner": "Arsenal",
+   "drama": {
+    "score": 4,
+    "tags": [],
+    "verdict": "skip it, the highlights are plenty"
+   }
+  },
+  {
+   "id": "564741",
+   "comp": "La Liga",
+   "home": "Valencia",
+   "away": "Real Madrid",
+   "protected": true,
+   "drama": {
+    "score": 6,
+    "tags": [],
+    "verdict": "extended highlights will do"
+   }
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "564746",
+   "comp": "La Liga",
+   "home": "Atleti",
+   "away": "Barcelona",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 12,
+   "kickoff_utc": "2026-11-08T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Sunday night",
+   "probs": {
+    "home": 0.35,
+    "draw": 0.26,
+    "away": 0.39
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Arsenal beat Hull to extend lead at top of the table",
+   "description": "Arsenal captain Martin Odegaard scores the winner as his side beat Hull City to extend their lead at the top of the Premier League table.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/crx230ke2gzxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
+   "description": "Arsenal move six points clear at the top of the Premier League after beating Hull City - but did Martin Odegaard's goal save the blushes of the VAR?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal should have been awarded penalty against Hull - Cann",
+   "description": "Former Premier League assistant referee Darren Cann explains why Arsenal should have been awarded a penalty for a foul on Kai Havertz in the Premier League champions' 1-0 win over Hull City.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}

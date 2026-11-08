@@ -1,10 +1,18 @@
 {
  "positions": {
   "PD:Barcelona": 1,
-  "PD:Real Madrid": 3,
+  "PD:Real Madrid": 2,
   "PL:Arsenal": 1
  },
  "episodes": [
+  {
+   "title": "Sunday 8 Nov: your teams in 2 minutes",
+   "file": "2026-11-08.mp3",
+   "bytes": 520172,
+   "seconds": 65,
+   "pub": "Sun, 08 Nov 2026 07:25:58 +0000",
+   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/videos/crx230ke2gzxo?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: TabPFN, for fun, not betting advice.</p>"
+  },
   {
    "title": "Saturday 7 Nov: your teams in 2 minutes",
    "file": "2026-11-07.mp3",
@@ -108,14 +116,6 @@
    "seconds": 40,
    "pub": "Mon, 26 Oct 2026 06:16:10 +0000",
    "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&amp;at_campaign=rss\">Real Madrid: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cm93zw44d33do?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>"
-  },
-  {
-   "title": "Saturday 24 Oct: your teams in 2 minutes",
-   "file": "2026-10-24.mp3",
-   "bytes": 415916,
-   "seconds": 52,
-   "pub": "Sat, 24 Oct 2026 05:59:46 +0000",
-   "notes": "<p>Your morning football briefing. Sources:</p><ul><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cmwyql6v5q82o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/cqrky7n63l6po?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li><li><a href=\"https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&amp;at_campaign=rss\">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: TabPFN, for fun, not betting advice.</p>"
   }
  ],
  "runs": [
@@ -392,6 +392,23 @@
    "source": "template",
    "seconds": 60,
    "pipeline_seconds": 368
+  },
+  {
+   "date": "2026-11-08",
+   "attempts": 2,
+   "grounding_failures": [
+    [
+     "Atletico",
+     "Atletico"
+    ],
+    [
+     "Gunners"
+    ]
+   ],
+   "guard_hits": 1,
+   "source": "template",
+   "seconds": 65,
+   "pipeline_seconds": 259
   }
  ]
 }
