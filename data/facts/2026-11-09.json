@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-09",
+ "date_spoken": "Monday 9 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "564746",
+   "comp": "La Liga",
+   "home": "Atleti",
+   "away": "Barcelona",
+   "protected": false,
+   "score": "1-2",
+   "winner": "Barcelona",
+   "drama": {
+    "score": 10,
+    "tags": [
+     "a big swing in momentum",
+     "a late twist"
+    ],
+    "verdict": "worth the full replay"
+   }
+  }
+ ],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 33,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Are 'outstanding' Brighton now Arsenal's main title challengers?",
+   "description": "After moving up to second in the Premier League, could Brighton really be Arsenal's main title challengers?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Barcelona fight back to beat Atleti as Fermin scores twice",
+   "description": "Fermin Lopez scores twice as Barcelona come from behind to claim a gritty win over Atletico Madrid and maintain their advantage at the top of La Liga.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cx1l30319580o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "Arsenal had more than 20 players on shortlist to capitalise on title win",
+   "description": "Senior football correspondent Sami Mokbel goes inside Arsenal's bid to capitalise on their Premier League title and strengthen their squad this summer.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cz7z09v9pp1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
