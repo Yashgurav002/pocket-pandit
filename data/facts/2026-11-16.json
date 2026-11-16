@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-16",
+ "date_spoken": "Monday 16 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [],
+ "tables": [],
+ "headlines": [
+  {
+   "title": "Man Utd target Fulham's Bassey - Monday's gossip",
+   "description": "Manchester United target Fulham's Calvin Bassey and Brentford's Nathan Collins, AC Milan want Real Madrid's Endrick on loan, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cklyegvq86w8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  },
+  {
+   "title": "London City earn point in thrilling draw against Arsenal",
+   "description": "London City Lionesses prove their elite credentials in a thrilling draw with Arsenal at Emirates Stadium.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cqy7rd2e400jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "White has 'exciting future' despite boos - Rice",
+   "description": "Midfielder Declan Rice has defended his Arsenal team-mate Ben White after he was booed during England's win over Croatia at Wembley.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cq0mdzrjn0j2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
