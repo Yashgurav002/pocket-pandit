@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-19",
+ "date_spoken": "Thursday 19 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 33,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Man Utd pursuing Como's Paz - Thursday's gossip",
+   "description": "Manchester United pursuing Nico Paz, Besiktas plot move for Amad Diallo, Barcelona to rebuff offers for Alejandro Balde, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "Arsenal Double winner Storey dies aged 81",
+   "description": "Former Arsenal and England midfielder Peter Storey - who helped the Gunners win the Double in 1970-71 - has died at the age of 81.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "London City earn point in thrilling draw against Arsenal",
+   "description": "London City Lionesses prove their elite credentials in a thrilling draw with Arsenal at Emirates Stadium.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cqy7rd2e400jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
