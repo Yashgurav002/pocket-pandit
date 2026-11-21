@@ -1,0 +1,107 @@
+{
+ "date": "2026-11-21",
+ "date_spoken": "Saturday 21 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "560651",
+   "comp": "Premier League",
+   "home": "Newcastle",
+   "away": "Arsenal",
+   "comp_code": "PL",
+   "stage": "REGULAR_SEASON",
+   "matchday": 11,
+   "kickoff_utc": "2026-11-21T17:30:00Z",
+   "kickoff_local": "11:00 PM",
+   "kickoff_day": "Saturday",
+   "probs": {
+    "home": 0.2,
+    "draw": 0.23,
+    "away": 0.57
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights"
+  },
+  {
+   "id": "564754",
+   "comp": "La Liga",
+   "home": "Real Madrid",
+   "away": "Celta",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 13,
+   "kickoff_utc": "2026-11-21T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Saturday night",
+   "probs": {
+    "home": 0.84,
+    "draw": 0.1,
+    "away": 0.07
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights"
+  },
+  {
+   "id": "564749",
+   "comp": "La Liga",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 13,
+   "kickoff_utc": "2026-11-22T13:00:00Z",
+   "kickoff_local": "6:30 PM",
+   "kickoff_day": "Sunday",
+   "probs": {
+    "home": 0.81,
+    "draw": 0.11,
+    "away": 0.08
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": null
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 33,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 27,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Arteta warns Arsenal players over FPL team news leak",
+   "description": "Mikel Arteta says his Arsenal players have been warned against inadvertently leaking team news via Fantasy Premier League.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ck62pz5r16pro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Lyon outclass Arsenal for Champions League win",
+   "description": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal 'have ingredients' but Europe's elite on another level",
+   "description": "In a difficult defeat by French giants Lyon, Arsenal were shown the gap they need to bridge to challenge for the Champions League.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm4gnxz8dvx1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
