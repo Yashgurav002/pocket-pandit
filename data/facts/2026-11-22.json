@@ -1,0 +1,89 @@
+{
+ "date": "2026-11-22",
+ "date_spoken": "Sunday 22 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "560651",
+   "comp": "Premier League",
+   "home": "Newcastle",
+   "away": "Arsenal",
+   "protected": false,
+   "score": "2-2",
+   "winner": "draw",
+   "drama": {
+    "score": 6,
+    "tags": [],
+    "verdict": "extended highlights will do"
+   }
+  },
+  {
+   "id": "564754",
+   "comp": "La Liga",
+   "home": "Real Madrid",
+   "away": "Celta",
+   "protected": true,
+   "drama": {
+    "score": 9,
+    "tags": [
+     "a big swing in momentum"
+    ],
+    "verdict": "worth the full replay"
+   }
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "564749",
+   "comp": "La Liga",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 13,
+   "kickoff_utc": "2026-11-22T13:00:00Z",
+   "kickoff_local": "6:30 PM",
+   "kickoff_day": "Sunday",
+   "probs": {
+    "home": 0.81,
+    "draw": 0.11,
+    "away": 0.08
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": null
+  }
+ ],
+ "tables": [
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 28,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Arsenal go six points clear after lively draw at Newcastle",
+   "description": "Noni Madueke's second-half goal earns Arsenal a 2-2 draw against Newcastle United at St James' Park, as the reigning champions move six points clear at the top of the Premier League table.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm702zzl66l6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Why Arsenal are behind in race for Champions League spots",
+   "description": "Arsenal were open about their aim to win the WSL this season but they find themselves well adrift - where have things gone wrong?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Raya set to have scan on injury - how much would Arsenal miss him?",
+   "description": "Arsenal goalkeeper David Raya is set to have a scan on his shoulder after going off injured during Saturday's 2-2 draw with Newcastle.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
