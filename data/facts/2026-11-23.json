@@ -1,0 +1,63 @@
+{
+ "date": "2026-11-23",
+ "date_spoken": "Monday 23 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "564749",
+   "comp": "La Liga",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "protected": false,
+   "score": "3-2",
+   "winner": "Barcelona",
+   "drama": {
+    "score": 10,
+    "tags": [
+     "a big swing in momentum"
+    ],
+    "verdict": "worth the full replay"
+   }
+  }
+ ],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 36,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 28,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+   "description": "BBC Sport looks at why JJ Gabriel's move from Manchester United to Real Madrid has caused such a stir.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  },
+  {
+   "title": "Arsenal frustrations grow as winless home run continues",
+   "description": "Arsenal remain without a home win in the WSL as they play out a goalless draw with West Ham, increasing the pressure on Renee Slegers.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal go six points clear after lively draw at Newcastle",
+   "description": "Noni Madueke's second-half goal earns Arsenal a 2-2 draw against Newcastle United at St James' Park, as the reigning champions move six points clear at the top of the Premier League table.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm702zzl66l6o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
