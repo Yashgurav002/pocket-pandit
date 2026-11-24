@@ -1,0 +1,80 @@
+{
+ "date": "2026-11-24",
+ "date_spoken": "Tuesday 24 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "575397",
+   "comp": "Champions League",
+   "home": "Real Madrid",
+   "away": "PSV",
+   "comp_code": "CL",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 5,
+   "kickoff_utc": "2026-11-24T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Tuesday night"
+  },
+  {
+   "id": "575399",
+   "comp": "Champions League",
+   "home": "Arsenal",
+   "away": "Dortmund",
+   "comp_code": "CL",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 5,
+   "kickoff_utc": "2026-11-24T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Tuesday night",
+   "probs": {
+    "home": 0.63,
+    "draw": 0.2,
+    "away": 0.17
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights",
+   "note": "cross-league estimate, less reliable"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 36,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 28,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Two goals in 15 games - what's going on with Gyokeres?",
+   "description": "Arsenal have made an impressive start to the campaign but it has been a frustrating one for striker Viktor Gyokeres.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cklylr15gr2do?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal and PSG keen on Nusa - Tuesday's gossip",
+   "description": "Arsenal and PSG are both looking at a move for RB Leipzig winger Antonio Nusa, Xabi Alonso has Chelsea hierarchy backing, Liverpool open contract talks with keeper Alisson Becker, plus more.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm8x0grpder5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Raya to miss Dortmund game but injury 'not serious'",
+   "description": "Arsenal goalkeeper David Raya will miss Tuesday's Champions League game against Borussia Dortmund but his shoulder injury will not require an operation.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
