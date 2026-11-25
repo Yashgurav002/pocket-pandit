@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-25",
+ "date_spoken": "Wednesday 25 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "575397",
+   "comp": "Champions League",
+   "home": "Real Madrid",
+   "away": "PSV",
+   "protected": true,
+   "drama": {
+    "score": 7,
+    "tags": [
+     "a big swing in momentum",
+     "end-to-end action",
+     "one-sided"
+    ],
+    "verdict": "worth the full replay"
+   }
+  },
+  {
+   "id": "575399",
+   "comp": "Champions League",
+   "home": "Arsenal",
+   "away": "Dortmund",
+   "protected": false,
+   "score": "1-1",
+   "winner": "draw",
+   "drama": {
+    "score": 5,
+    "tags": [],
+    "verdict": "extended highlights will do"
+   }
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "575404",
+   "comp": "Champions League",
+   "home": "Sabah FK",
+   "away": "Barcelona",
+   "comp_code": "CL",
+   "stage": "LEAGUE_STAGE",
+   "matchday": 5,
+   "kickoff_utc": "2026-11-25T17:45:00Z",
+   "kickoff_local": "11:15 PM",
+   "kickoff_day": "Wednesday"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 36,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 28,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Arteta says Arsenal need more luck to kill off games",
+   "description": "Arsenal need more luck to kill off games says manager Mikel Arteta after they are held to a draw by Borussia Dortmund.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c3ewv0kdjlp9o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Arsenal frustrations grow as winless home run continues",
+   "description": "Arsenal remain without a home win in the WSL as they play out a goalless draw with West Ham, increasing the pressure on Renee Slegers.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "One of football's most-hyped 16-year-olds - what next for JJ Gabriel?",
+   "description": "BBC Sport looks at why JJ Gabriel's move from Manchester United to Real Madrid has caused such a stir.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  }
+ ]
+}
