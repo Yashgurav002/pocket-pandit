@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-26",
+ "date_spoken": "Thursday 26 November",
+ "timezone": "Asia/Kolkata",
+ "results": [
+  {
+   "id": "575404",
+   "comp": "Champions League",
+   "home": "Sabah FK",
+   "away": "Barcelona",
+   "protected": false,
+   "score": "1-4",
+   "winner": "Barcelona",
+   "drama": {
+    "score": 3,
+    "tags": [
+     "end-to-end action",
+     "one-sided"
+    ],
+    "verdict": "skip it, the highlights are plenty"
+   }
+  }
+ ],
+ "fixtures": [],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 36,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 28,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "'Best midfielder in the world' - where does Bellingham rank?",
+   "description": "Jose Mourinho called Real Madrid's Jude Bellingham \"the best midfielder in the world\", but where would you rank him?",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cmkgdjkr2y70o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Real Madrid"
+  },
+  {
+   "title": "Gordon stars in comfortable Barca win over Sabah",
+   "description": "Anthony Gordon scores Barcelona's opening two goals as they ease past Sabah with a 4-1 win in the Champions League.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/c6z74ljxjv2xo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Barcelona"
+  },
+  {
+   "title": "Borussia Dortmund fight back to draw with Arsenal",
+   "description": "Borussia Dortmund fight back from a goal behind to draw with Arsenal in the Champions League.",
+   "url": "https://www.bbc.co.uk/sport/football/videos/cmedqg06d8vwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}

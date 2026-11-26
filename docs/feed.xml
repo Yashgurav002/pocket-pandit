@@ -8,6 +8,14 @@
   <itunes:image href="https://yashgurav002.github.io/pocket-pandit/cover.png"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+   <title>Thursday 26 Nov: your teams in 2 minutes</title>
+   <description><![CDATA[<p>Your morning football briefing. Sources:</p><ul><li><a href="https://www.bbc.co.uk/sport/football/articles/cmkgdjkr2y70o?at_medium=RSS&amp;at_campaign=rss">Real Madrid: BBC Sport</a></li><li><a href="https://www.bbc.co.uk/sport/football/videos/c6z74ljxjv2xo?at_medium=RSS&amp;at_campaign=rss">Barcelona: BBC Sport</a></li><li><a href="https://www.bbc.co.uk/sport/football/videos/cmedqg06d8vwo?at_medium=RSS&amp;at_campaign=rss">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>]]></description>
+   <enclosure url="https://yashgurav002.github.io/pocket-pandit/episodes/2026-11-26.mp3" type="audio/mpeg" length="371180"/>
+   <guid isPermaLink="false">2026-11-26.mp3</guid>
+   <pubDate>Thu, 26 Nov 2026 09:35:47 +0000</pubDate>
+   <itunes:duration>46</itunes:duration>
+  </item>
+  <item>
    <title>Wednesday 25 Nov: your teams in 2 minutes</title>
    <description><![CDATA[<p>Your morning football briefing. Sources:</p><ul><li><a href="https://www.bbc.co.uk/sport/football/articles/c3ewv0kdjlp9o?at_medium=RSS&amp;at_campaign=rss">Arsenal: BBC Sport</a></li><li><a href="https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&amp;at_campaign=rss">Arsenal: BBC Sport</a></li><li><a href="https://www.bbc.co.uk/sport/football/articles/c6p9dym309nxo?at_medium=RSS&amp;at_campaign=rss">Real Madrid: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>]]></description>
    <enclosure url="https://yashgurav002.github.io/pocket-pandit/episodes/2026-11-25.mp3" type="audio/mpeg" length="620972"/>
@@ -110,14 +118,6 @@
    <guid isPermaLink="false">2026-11-13.mp3</guid>
    <pubDate>Fri, 13 Nov 2026 08:01:19 +0000</pubDate>
    <itunes:duration>28</itunes:duration>
-  </item>
-  <item>
-   <title>Thursday 12 Nov: your teams in 2 minutes</title>
-   <description><![CDATA[<p>Your morning football briefing. Sources:</p><ul><li><a href="https://www.bbc.co.uk/sport/football/articles/c5vg23nmgp2yo?at_medium=RSS&amp;at_campaign=rss">Arsenal: BBC Sport</a></li><li><a href="https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&amp;at_campaign=rss">Arsenal: BBC Sport</a></li><li><a href="https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo?at_medium=RSS&amp;at_campaign=rss">Arsenal: BBC Sport</a></li></ul><p>Data: football-data.org, football-data.co.uk. Voice: Kokoro-82M. Script: Gemma. Predictions: Elo baseline, for fun, not betting advice.</p>]]></description>
-   <enclosure url="https://yashgurav002.github.io/pocket-pandit/episodes/2026-11-12.mp3" type="audio/mpeg" length="208556"/>
-   <guid isPermaLink="false">2026-11-12.mp3</guid>
-   <pubDate>Thu, 12 Nov 2026 08:24:31 +0000</pubDate>
-   <itunes:duration>26</itunes:duration>
   </item>
  </channel>
 </rss>
