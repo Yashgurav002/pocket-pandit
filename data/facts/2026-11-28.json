@@ -1,0 +1,67 @@
+{
+ "date": "2026-11-28",
+ "date_spoken": "Saturday 28 November",
+ "timezone": "Asia/Kolkata",
+ "results": [],
+ "fixtures": [
+  {
+   "id": "564762",
+   "comp": "La Liga",
+   "home": "Real Madrid",
+   "away": "Alavés",
+   "comp_code": "PD",
+   "stage": "REGULAR_SEASON",
+   "matchday": 14,
+   "kickoff_utc": "2026-11-28T20:00:00Z",
+   "kickoff_local": "1:30 AM",
+   "kickoff_day": "Saturday night",
+   "probs": {
+    "home": 0.85,
+    "draw": 0.1,
+    "away": 0.06
+   },
+   "model": "tabpfn",
+   "upset_alert": false,
+   "stay_up": "sleep and catch the highlights"
+  }
+ ],
+ "tables": [
+  {
+   "comp": "La Liga",
+   "team": "Barcelona",
+   "position": 1,
+   "points": 36,
+   "change": 0
+  },
+  {
+   "comp": "Premier League",
+   "team": "Arsenal",
+   "position": 1,
+   "points": 28,
+   "change": 0
+  }
+ ],
+ "headlines": [
+  {
+   "title": "Wilshere v Ramsey - Arsenal legends treading similar managerial paths",
+   "description": "Eighteen years after making their Premier League debuts two minutes apart, Jack Wilshere and Aaron Ramsey meet as managers.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cm1dvn9w1px4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "Champions League to be a factor in Paz move - Saturday's gossip",
+   "description": "Manchester United may lose the chance to sign Nico Paz without Champions League qualification, Arsenal also want the Como midfielder and Liverpool eye Lamine Camara.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  },
+  {
+   "title": "'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?",
+   "description": "Manchester City's leaky defence faces one of the most difficult games of the season with a trip to watertight Arsenal, aiming to put right their patchy recent form.",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cknv47dee54zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "team": "Arsenal"
+  }
+ ]
+}
